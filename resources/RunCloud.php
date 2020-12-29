@@ -1,5 +1,11 @@
 <?php
 
+use App\Classes\User;
+use App\Classes\Server;
+use App\Classes\BasicPlan;
+use App\Classes\ProPlan;
+
+require_once realpath("../vendor/autoload.php");
 /*
 |--------------------------------------------------------------------------
 | RunCloud Assesment
@@ -31,14 +37,9 @@
 
 print "\n\nRunCloud Assestment !\n\n";
 
-
-use App\Classes\User;
-use App\Classes\Server;
-use App\Classes\BasicPlan;
-use App\Classes\ProPlan;
-
-require_once realpath("../vendor/autoload.php");
-
+/*
+* Setting Up required details
+*/
 $user = new User();
 $user->name = 'Ashraf Kamarudin';
 
