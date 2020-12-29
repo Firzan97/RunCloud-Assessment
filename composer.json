@@ -1,0 +1,14 @@
+{
+    "name": "firza/run-cloud",
+    "description": "Runcloud Assessment",
+    "authors": [{
+        "name": "Firzan97",
+        "email": "FirzanAzrai97@gmail.com"
+    }],
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
