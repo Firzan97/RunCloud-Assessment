@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Classes;
+namespace App\classes;
 
 abstract class Plan
 {
