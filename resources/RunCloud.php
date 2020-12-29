@@ -36,8 +36,6 @@ use App\Classes\User;
 use App\Classes\Server;
 use App\Classes\BasicPlan;
 use App\Classes\ProPlan;
-use App\Classes\Plan;
-
 
 require_once realpath("../vendor/autoload.php");
 
