@@ -7,23 +7,22 @@ class Server
     // Properties
     public $name;
     public $ipAddress;
-    public $serverAvailable;
 
 
     // Methods
-    function set_name($name)
+    function setName($name)
     {
         $this->name = $name;
     }
-    function get_name()
+    function getName()
     {
         return $this->name;
     }
-    function set_server($server)
+    function setServer($server)
     {
         $this->server = $server;
     }
-    function get_server()
+    function getServer()
     {
         return $this->server;
     }

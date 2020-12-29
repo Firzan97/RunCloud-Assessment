@@ -18,11 +18,11 @@ class User
         $this->name = "";
         $this->serverConnect = 0;
     }
-    function set_name($name)
+    function setName($name)
     {
         $this->name = $name;
     }
-    function get_name()
+    function getName()
     {
         return $this->name;
     }
@@ -34,6 +34,7 @@ class User
         //welcoming user based on plan subscribed
         $plan->welcome();
     }
+
     function connectServer($server)
     {
         sleep(5);
