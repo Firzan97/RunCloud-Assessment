@@ -87,8 +87,3 @@ print "Flow #3 Unsubscribe Plan Subscription !\n\n";
 // of connecting more than 1 server.
 $user->unsubscribe();
 $user->connectServer($server_2); // fail
-$user->subscribe(new BasicPlan());
-
-
-$user->connectServer($server_1);
-$user->connectServer($server_2); //
