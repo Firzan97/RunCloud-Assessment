@@ -31,14 +31,8 @@ class User
         print "Action: Subscribing to the plan Basic Plan ...\n";
         sleep(5);
         $this->planSubcribe = $plan;
+        //welcoming user based on plan subscribed
         $plan->welcome();
-        // if ($plan instanceof BasicPlan) {
-        //     $this->planSubcribe = $plan;
-        //     $plan->welcome();
-        // } elseif ($plan instanceof ProPlan) {
-        //     $this->planSubcribe = $plan;
-        //     $plan->welcome();
-        // }
     }
     function connectServer($server)
     {
@@ -92,6 +86,9 @@ class User
     {
         print "Action: Cancelling Subscription to Plan Pro Plan \n\n";
         sleep(5);
+        /*
+         Clear the server , update no plan subscribed, and serverConnect set to 0
+        */
         $this->serverList = array();
         $this->planSubcribe = "No Plan";
         $this->serverConnect = 0;
